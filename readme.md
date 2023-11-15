@@ -16,4 +16,7 @@ _OR_
 pyinstaller --onefile --hidden-import=bs4 HTML_CC.py -w
 ```
 
-_OR_ download from release.
+_OR_ download HTML*CC.exe v0.1 from release. \_make sure windows defender is off during the download and runtime or it will be detected as a virus which is not*
+
+![Screenshot](HTML_Comparison.png)
+![Screenshot](Word_Comparison.png)
