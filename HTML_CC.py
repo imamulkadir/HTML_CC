@@ -113,8 +113,8 @@ def extract_words(file_path, listbox, label, word_count_label):
     label.config(text=f"{label['text']} {len(words)}")
 
 #Function to open fb profile
-def open_facebook_profile():
-    webbrowser.open("https://www.facebook.com/imamulkadir")
+def open_github_profile():
+    webbrowser.open("https://www.github.com/imamulkadir")
 
 # Create the main window
 root = tk.Tk()
@@ -207,6 +207,6 @@ footer_label = tk.Label(root, text="©2023 - Imamul Kadir", cursor="hand2", fg="
 footer_label.pack(side=tk.BOTTOM, padx=10, pady=5)
 
 # Bind the label to the function that opens the link
-footer_label.bind("<Button-1>", lambda event: open_facebook_profile())
+footer_label.bind("<Button-1>", lambda event: open_github_profile())
 
 root.mainloop()
